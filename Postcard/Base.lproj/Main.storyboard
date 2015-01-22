@@ -104,6 +104,15 @@
                                     <rect key="frame" x="250" y="148" width="100" height="80"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wsl-Rx-m6y">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="11" y="148" width="231" height="24"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="MzL-Gt-sKR"/>
                                 <exclude reference="jeR-rf-e7Q"/>
                                 <exclude reference="K3f-FD-fcc"/>
+                                <exclude reference="Wsl-Rx-m6y"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="MzL-Gt-sKR"/>
                                 <include reference="jeR-rf-e7Q"/>
                                 <include reference="K3f-FD-fcc"/>
+                                <include reference="Wsl-Rx-m6y"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="gXV-26-3cw" id="Dnd-k2-PGj"/>
                         <outlet property="mailButton" destination="MzL-Gt-sKR" id="bSw-eF-zXb"/>
                         <outlet property="messageLabel" destination="jeR-rf-e7Q" id="Jue-At-fpw"/>
+                        <outlet property="nameLabel" destination="Wsl-Rx-m6y" id="N7j-d7-tQJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
